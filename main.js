@@ -10,12 +10,9 @@
 function tellFortune(firstName, age,) {
 
     let newAge = age + Math.floor(Math.random() * (5,40));
+    let newName = ["Barry", "Tony", "ShaNayNay", "Trevington"]
 
-    // if(newAge === age) {
-    //     newAge = age+15;
-    // }
- 
-    return `${firstName}, you are now, ${age}, when you are ${newAge} you will be a pornstar`
+    return `${firstName}, you are now, ${age}, when you are ${newAge} you will become a Chicken Nugget`
 
 }
 
