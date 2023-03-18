@@ -10,9 +10,9 @@
 function tellFortune(firstName, age,) {
 
     let newAge = age + Math.floor(Math.random() * (5,40));
-    let newName = ["Barry", "Tony", "ShaNayNay", "Trevington"]
 
-    return `${firstName}, you are now, ${age}, when you are ${newAge} you will become a Chicken Nugget`
+    let nameList = ["Barry", "Tony", "ShaNayNay", "Trevington"]
+    let newName = nameList[Math.floor(Math.random() * nameList.length)];
+    return `${firstName} is your current name you are currently ${age} years old. However, by the time you are ${newAge}, unfortunately - you will have changed your name to ${newName} and you will have become a Chicken Nugget`
 
 }
-
